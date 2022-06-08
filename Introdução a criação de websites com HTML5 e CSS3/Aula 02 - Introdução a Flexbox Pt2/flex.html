@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos flex</title>
+    <style>
+      .flex-container {
+        display: flex;
+        border: 1px solid grey;
+        max-width: 400px;
+      }
+
+      .item {
+        background-color: teal;
+        color: aliceblue;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+      }
+
+      .flex-1 {
+        flex: 1;
+        /*grow: 1; shrink: 1; basis: 0*/
+        /*vai continuar crescendo os elementos sem quebra de linha*/
+      }
+      .largura {
+        width: 200px;
+        min-width: 200px;
+      }
+
+      .flex-2 {
+        flex: 2;
+        /*grow: 2; shrink: 1; basis: 0*/
+        /*vai continuar crescendo os elementos sem quebra de linha*/
+      }
+    </style>
+  </head>
+  <body>
+    <p>grow: 1; shrink: 1; basis: 0</p>
+    <div class="flex-container">
+      <div class="item flex-1">A</div>
+      <div class="item flex-1">BBB</div>
+      <div class="item flex-1">CC</div>
+      <div class="item flex-1">D</div>
+      <div class="item flex-1">E</div>
+    </div>
+
+    <p>grow: mix; shrink: 1; basis: 0</p>
+    <div class="flex-container">
+      <div class="item flex-1">A</div>
+      <div class="item flex-2">BBB</div>
+      <div class="item flex-1">CC</div>
+      <div class="item flex-2">D</div>
+      <div class="item flex-1">E</div>
+    </div>
+
+    <p>wisth ignorado -> basis: 0</p>
+    <div class="flex-container">
+      <div class="item largura flex-1">A</div>
+      <div class="item largura flex-2">BBB</div>
+      <div class="item largura flex-1">CC</div>
+      <div class="item largura flex-2">D</div>
+      <div class="item largura flex-1">E</div>
+    </div>
+  </body>
+</html>

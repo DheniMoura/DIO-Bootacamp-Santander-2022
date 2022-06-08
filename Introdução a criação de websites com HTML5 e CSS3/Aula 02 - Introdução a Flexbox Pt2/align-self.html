@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - align-self</title>
+
+  <style>
+    .flex-container{
+      display: flex;
+      max-width: 350px;
+      border: 1px solid grey;
+      margin-bottom: 10px;
+    }
+
+    .align-container{
+      align-items: center;
+    }
+
+    .item {
+      background-color: turquoise;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      margin: 5px;
+    }
+
+    .center {
+      align-self: center;
+    }
+
+    .start {
+      align-self: flex-start;
+    }
+
+    .end {
+      align-self: flex-end;
+    }
+
+    .stretch {
+      align-self: stretch;
+    }
+
+    .baseline {
+      align-self: baseline;
+    }
+
+    .auto {
+      align-self: auto;
+    }
+
+    .direction {
+      flex-direction: column;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>row</h1>
+  <p>auto</p>
+  <section class="flex-container">
+     <div class="item auto">AAA</div>
+     <div class="item auto">123</div>
+     <div class="item auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+     <div class="item auto">item 4</div>
+   </section>
+
+  <p>stretch</p>
+  <section class="flex-container align-container">
+    <div class="item stretch">AAA</div>
+    <div class="item stretch">123</div>
+    <div class="item stretch">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item stretch">item 4</div>
+  </section>
+
+  <p>end / center / start</p>
+  <section class="flex-container">
+    <div class="item end">AAA</div>
+    <div class="item center">123</div>
+    <div class="item start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item start">item 4</div>
+  </section>
+
+  <p>baseline</p>
+  <section class="flex-container">
+    <div class="item baseline">AAA</div>
+    <div class="item baseline">123</div>
+    <div class="item baseline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item baseline">item 4</div>
+  </section>
+
+  <h1>row</h1>
+  <p>auto</p>
+  <section class="flex-container direction">
+     <div class="item auto">AAA</div>
+     <div class="item auto">123</div>
+     <div class="item auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+     <div class="item auto">item 4</div>
+   </section>
+
+   <p>end / center / start</p>
+  <section class="flex-container direction">
+    <div class="item end">AAA</div>
+    <div class="item center">123</div>
+    <div class="item start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item start">item 4</div>
+  </section>
+
+  <p>baseline / stretch</p>
+  <section class="flex-container">
+    <div class="item stretch">AAA</div>
+    <div class="item baseline">123</div>
+    <div class="item baseline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div class="item baseline">item 4</div>
+  </section>
+</body>
+</html>

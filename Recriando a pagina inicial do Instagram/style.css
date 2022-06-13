@@ -17,7 +17,7 @@ body{
   justify-content: center;
 }
 
-.intagram-wrapper{
+.instagram-wrapper{
   display: flex;
   align-items: center;
   justify-content: start;
@@ -130,7 +130,7 @@ body{
 /* media query */
 
 @media (max-width: 1024px){
-  .intagram-wrapper{
+  .instagram-wrapper{
     width: 90%;
   }
 }

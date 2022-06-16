@@ -10,4 +10,4 @@ Isntruções que foram seguidas:
     
 
 Resultado esperado:
-!(Exemplo.png)
+![Resultado esperado:](assets/Exemplo.png)

@@ -1,0 +1,49 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: darkblue;
+}
+
+button {
+  border: 1.5px solid darkblue;
+  border-radius: 10px;
+  /* height: 30px; */
+  /* width: 100px; */
+  background-color: white;
+  color: darkblue; 
+  text-align: center;
+  padding: 5px 15px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1.5px solid darkblue;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: darkgrey;
+}

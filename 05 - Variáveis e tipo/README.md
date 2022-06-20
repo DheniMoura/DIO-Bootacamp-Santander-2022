@@ -1,4 +1,4 @@
-### Atribuição de valores
+## Atribuição de valores
 
 ![case types](most-common-programming-case-types-by-chase-adams-chase-adams-362406022740.png)
 
@@ -37,3 +37,14 @@ redeclarar|sim|não|não
 reatribuir|sim|não|sim
 hoisting|sim|não|não
 
+<br><br>
+
+## Tipos de valores
+
+### Estruturas de dados
+JavaScript possuí tipagem fraca/dinâmica, ou seja, antes de declarar um valor não é especificado o **tipo** dele.
+
+Tipos de dados em JavaScript
+![tipos](Tipos.png)
+
+Dica: Utilizar a biblioteca Math para lidar com números.

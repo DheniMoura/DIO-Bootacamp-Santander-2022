@@ -10,15 +10,30 @@
 ### var / let
 
 #### var
-escopo global<br>
-possível atribuir valor antes de declarar a variável (hoisting)<br>
-redeclaração e reatribuição<br>
-<br>
-<br>
+Escopo global<br>
+Possível atribuir valor antes de declarar a variável (hoisting)<br>
+Permite redeclaração e reatribuição<br>
 
 #### let
-escopo dentro de um bloco<br>
-reatribuição<br>
-mais seguro<br>
-<br>
+Escopo dentro de um bloco<br>
+não faz hoisting<br>
+Permite reatribuição<br>
+Mais seguro<br>
+<br><br>
+
+
+### const
+Declarada em SNAKE_UPPER_CASE<br>
+Escopo de bloco<br>
+Não faz hoisting<br>
+Não permite redeclaração e reatribuição<br>
+<br><br>
+
+### Resumo
+| |var|const|let|
+|:--:|:--:|:--:|:--:|
+escopo|global ou local|bloco|bloco
+redeclarar|sim|não|não
+reatribuir|sim|não|sim
+hoisting|sim|não|não
 

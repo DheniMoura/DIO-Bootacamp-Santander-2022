@@ -14,4 +14,5 @@ O foco deste bootcamp foi desenvolvimento fullstack com HTML5,CSS3 e JS, Angular
 |03| [Introdução ao JavaScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/03%20-%20Introdu%C3%A7%C3%A3o%20ao%20JavaScript) |
 |04| [JavaScript Sintaxe e Operadores](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/04%20-%20JavaScript%20Sintaxe%20e%20Operadores) |
 |05| [Variáveis e tipos](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/05%20-%20Vari%C3%A1veis%20e%20tipo) |
-|06| Está por vir! |
+|06| [Tipos de função](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/06%20-%20Tipos%20de%20fun%C3%A7%C3%A3o) |
+|07| Está por vir! |

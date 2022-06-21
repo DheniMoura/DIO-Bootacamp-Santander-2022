@@ -29,17 +29,18 @@ console.log(verificaPalindromo2('abbas'));
 // Solução 03
 
 function verificaFrase(frase) {
-  if(!frase) return "frase não existe";
+  if (!frase) return 'frase não existe'
 
-  // let concatenado = frase.split("").remove(" ").join("");
-  // let contrario = concatenado.reverse().join("");
-  // concatenado = concatenado.join("");
+  frase = frase.toLowerCase()
+  let concatenado = frase.split(' ').join('')
+  let contrario = concatenado
+  contrario = contrario.split('').reverse().join('')
 
-  // if(concatenado !== contrario) {
-  //   return "Não é palíndromo"
-  // }
+  if (concatenado !== contrario) {
+    return 'Não é palíndromo'
+  }
 
-  return concatenado;
+  return `"\ ${frase}"\ é um palindromo`
 }
 
-console.log(verificaFrase("roma me tem amor"));
+console.log(verificaFrase('Roma me Tem amor'))

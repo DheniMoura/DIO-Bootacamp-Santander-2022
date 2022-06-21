@@ -2,7 +2,7 @@
 
 Este repositório contém a atividade prática do Curso "Sintaxe e Operadores", que faz parte do Bootecamp fullstack Santander ministrado pela [Digital Innovation One](https://www.dio.me/).
 
-### Atividade
+### [Atividade](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/blob/main/04%20-%20JavaScript%20Sintaxe%20e%20Operadores/script.js)
 
   * Crie uma função que recebe dois números como parâmetros.
   * Confira se os números são iguais.

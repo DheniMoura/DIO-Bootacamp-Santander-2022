@@ -1,4 +1,4 @@
-// solução 01
+// ----------- solução 01 -----------
 /*
 function verificaPalindromo(string) {
   if (!string) return "string inexistente" // se a string não existir, encerra a função
@@ -9,7 +9,7 @@ function verificaPalindromo(string) {
 console.log(verificaPalindromo('ovos'));
 */
 
-// solução 02
+// ----------- solução 02 -----------
 /*
 function verificaPalindromo2(string) {
   if (!string) return "string inexistente";
@@ -26,10 +26,10 @@ function verificaPalindromo2(string) {
 console.log(verificaPalindromo2('abbas'));
 */
 
-// Solução 03
+// ----------- Solução 03 -----------
 
 function verificaFrase(frase) {
-  if (!frase) return 'frase não existe'
+  if (!frase) throw 'String inválida'
 
   frase = frase.toLowerCase()
   let concatenado = frase.split(' ').join('')

@@ -7,7 +7,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   height: 100vh;
   margin: 0;
-  background-color: darkcyan;
+  background-color: turquoise;
 }
 
 img {
@@ -16,7 +16,12 @@ img {
 }
 
 main {
-  border: 0;
+  text-align: center;
+  color: aliceblue;
+}
+
+button {
+  border: 1;
   font-size: 1.2rem;
   font-weight: 500;
   padding: 16px;
@@ -28,5 +33,5 @@ main {
 }
 
 button:hover {
-  background: turquoise;
+  background: lightseagreen;
 }

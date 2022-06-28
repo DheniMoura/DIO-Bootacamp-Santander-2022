@@ -2,7 +2,7 @@
 
 Projeto referente ao curso "Tratamento de Erros" da [Digital Innovation One](https://web.dio.me).<br><br>
 
-## Atividade: validação de erros por tipo
+## [Atividade](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/blob/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/09%20-%20debug-error/validaArrays.js): validação de erros por tipo
 
 O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao número enviado como parâmetro na função. Caso contrário, um erro será lançado.
 

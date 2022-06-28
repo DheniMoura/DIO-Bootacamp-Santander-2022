@@ -14,9 +14,9 @@ Módulo dedicado às tecnologias HTML5, CSS3 e JavaScript.
 |06| [Tipos de função](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/06%20-%20Tipos%20de%20fun%C3%A7%C3%A3o) |
 |07| [Maps e Sets](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/07%20-%20Maps%20e%20Sets) |
 |08| [Map, filter e Reduce](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/08%20-%20Map%2C%20Filter%20e%20Reduce) |
-|09| Está por vir! |
-|10| Está por vir! |
-|11| Está por vir! |
+|09| [Debug-error](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/09%20-%20debug-error) |
+  |10| [JavaScript Assíncrono](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/10%20-%20JS%20Ass%C3%ADncrono) |
+|11| [Orientação a objetos](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/11%20-%20Orienta%C3%A7%C3%A3o%20a%20objetos) |
 |12| Está por vir! |
 |13| Está por vir! |
 |14| Está por vir! |

@@ -19,7 +19,7 @@
   * Método `fetch`:
     * Retorna uma promisse;
 
-## Atividade: API "catAPI"
+## [Atividade](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/10%20-%20JS%20Ass%C3%ADncrono/projeto-html): API "catAPI"
 
 " Nesta atividade, criamos uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
 

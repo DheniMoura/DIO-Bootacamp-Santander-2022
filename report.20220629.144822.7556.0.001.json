@@ -1,0 +1,403 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20220629.144822.7556.0.001.json",
+    "dumpEventTime": "2022-06-29T14:48:22Z",
+    "dumpEventTimeStamp": "1656524902424",
+    "processId": 7556,
+    "cwd": "c:\\Users\\Dheni\\Documents\\MeusProjetos\\Bootcamp Santander DIO\\DIO-Bootacamp-Santander-2022",
+    "commandLine": [
+      "node",
+      "c:\\Users\\Dheni\\Documents\\MeusProjetos\\Bootcamp Santander DIO\\DIO-Bootacamp-Santander-2022\\01 - Modulo HTML, CSS3 e JS\\12 - Desafios iniciais JS\\desafio-01.js"
+    ],
+    "nodejsVersion": "v12.11.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.11.1",
+      "v8": "7.7.299.11-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.11.1/node-v12.11.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.11.1/node-v12.11.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.11.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows 7 Ultimate Service Pack 1",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 2046889,
+        "nice": 0,
+        "sys": 916724,
+        "idle": 10804457,
+        "irq": 63414
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 1513256,
+        "nice": 0,
+        "sys": 2167243,
+        "idle": 10086993,
+        "irq": 261956
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 1829220,
+        "nice": 0,
+        "sys": 880968,
+        "idle": 11057179,
+        "irq": 15662
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz",
+        "speed": 2594,
+        "user": 1548621,
+        "nice": 0,
+        "sys": 1205060,
+        "idle": 11013561,
+        "irq": 16052
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Conexão de Rede sem Fio",
+        "internal": false,
+        "mac": "24:f5:aa:5b:35:d2",
+        "address": "fe80::d83:c1d6:e0da:7da3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "Conexão de Rede sem Fio",
+        "internal": false,
+        "mac": "24:f5:aa:5b:35:d2",
+        "address": "192.168.0.148",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Conexão local",
+        "internal": false,
+        "mac": "24:f5:aa:55:c3:68",
+        "address": "fe80::4c7f:d55e:a6fa:5913",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Conexão local",
+        "internal": false,
+        "mac": "24:f5:aa:55:c3:68",
+        "address": "192.168.0.125",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Dheni-PC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000000013ffa7539",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x000000013ffab8cc",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28172"
+    },
+    {
+      "pc": "0x000000013ffaa878",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+23992"
+    },
+    {
+      "pc": "0x0000000140098c4b",
+      "symbol": "v8::base::CPU::has_sse+37563"
+    },
+    {
+      "pc": "0x000000014089a25e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00000001408822a1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x000000014074fc2c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x000000014075afd0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x0000000140757b04",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x000000014074d393",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x000000014074bb64",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x000000014076ce35",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00000001404d9497",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+3687"
+    },
+    {
+      "pc": "0x0000000140cc5f7d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00000277dfb5b425",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2125008896,
+    "totalCommittedMemory": 2125008896,
+    "usedMemory": 1983406312,
+    "availableMemory": 44595512,
+    "memoryLimit": 2132803584,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 742776,
+        "available": 16017032
+      },
+      "old_space": {
+        "memorySize": 2089922560,
+        "committedMemory": 2089922560,
+        "capacity": 1985759248,
+        "used": 1981964840,
+        "available": 3794408
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 199328,
+        "used": 199328,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 201360,
+        "used": 201360,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 154.44,
+    "kernelCpuSeconds": 13.104,
+    "cpuConsumptionPercent": 35.2724,
+    "maxRss": 2251874304,
+    "pageFaults": {
+      "IORequired": 713188,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 5131314
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "C:=c:\\Users\\Dheni\\Documents\\MeusProjetos\\Bootcamp Santander DIO\\DIO-Bootacamp-Santander-2022",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Dheni\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "1",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_5796_LRRGQCLDDGWXMDEG",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DHENI-PC",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "ELECTRON_NO_ATTACH_CONSOLE": "1",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Dheni",
+    "IntelliJ IDEA Community Edition": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.3.1\\bin;",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk-11.0.8",
+    "LOCALAPPDATA": "C:\\Users\\Dheni\\AppData\\Local",
+    "LOCAL_GIT_DIRECTORY": "C:\\Users\\Dheni\\AppData\\Local\\GitHubDesktop\\app-3.0.3\\resources\\app\\git",
+    "LOGONSERVER": "\\\\DHENI-PC",
+    "MAVEN_HOME": "C:\\Program Files\\Apache\\Maven\\3.8.4",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Dheni\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\MinGW\\bin;C:\\Program Files\\Apache\\Maven\\3.8.4\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Users\\Dheni\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\Dheni\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\MinGW\\bin;C:\\Users\\Dheni\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.3.1\\bin;;C:\\Users\\Dheni\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3a09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\Dheni\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Dheni\\AppData\\Local\\Temp",
+    "USERDOMAIN": "Dheni-PC",
+    "USERNAME": "Dheni",
+    "USERPROFILE": "C:\\Users\\Dheni",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_CLI": "1",
+    "VSCODE_CODE_CACHE_PATH": "C:\\Users\\Dheni\\AppData\\Roaming\\Code\\CachedData\\30d9c6cd9483b2cc586687151bcbcd635f373630",
+    "VSCODE_CWD": "C:\\Users\\Dheni\\AppData\\Local\\GitHubDesktop\\app-3.0.3",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_IPC_HOOK": "\\\\.\\pipe\\c0ae6b3c0373e9a25c27dd389c5aa9fc-1.68.1-main-sock",
+    "VSCODE_IPC_HOOK_EXTHOST": "\\\\.\\pipe\\vscode-ipc-7b3a4ba8-85c8-412c-9d61-0b9dd88d2bc8-sock",
+    "VSCODE_LOG_NATIVE": "false",
+    "VSCODE_LOG_STACK": "false",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"pt-br\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_PID": "5796",
+    "VSCODE_PIPE_LOGGING": "true",
+    "VSCODE_VERBOSE_LOGGING": "true",
+    "WALLABY_PRODUCTION": "true",
+    "windir": "C:\\Windows",
+    "windows_tracing_flags": "3",
+    "windows_tracing_logfile": "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\kernel32.dll",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\system32\\dbghelp.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\system32\\LPK.dll",
+    "C:\\Windows\\system32\\USP10.dll",
+    "C:\\Windows\\system32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\system32\\USERENV.dll",
+    "C:\\Windows\\system32\\profapi.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\system32\\bcrypt.dll",
+    "C:\\Windows\\system32\\WINMM.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL",
+    "C:\\Windows\\system32\\powrprof.dll",
+    "C:\\Windows\\system32\\SETUPAPI.dll",
+    "C:\\Windows\\system32\\CFGMGR32.dll",
+    "C:\\Windows\\system32\\OLEAUT32.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "C:\\Windows\\system32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\wshtcpip.dll",
+    "C:\\Windows\\System32\\wship6.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\system32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}

@@ -1,49 +1,11 @@
-let numero = validaNum(19)
+// a função gets() é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print() para imprimir a saída (output) de dados e já pula uma linha ("\n")
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+let lines = gets().split('\n');
+var N = parseInt(lines.shift());
 
-function validaNum(num){
-  try {
+for (let i = 1; i <= N; i++) {
+let quadrado = Math.pow(i, 2);
 
-    if(!num)throw new ReferenceError('Envie os paramêtros')
-
-    if(typeof num !== 'number') throw new TypeError('num precisa ser um número inteiro')
-
-    if(num <= 5 || num >= 2000) throw new RangeError('Valor fora do intervalo')
-
-    return num
-  } catch (e) {
-    if (e instanceof ReferenceError) {
-      console.log('Este erro é um ReferenceError')
-      console.log(e.message)
-    } else if (e instanceof TypeError) {
-      console.log('Este erro é um TypeError')
-      console.log(e.message)
-    } else if (e instanceof RangeError) {
-      console.log('Este erro é um RangeError')
-      console.log(e.message)
-    } else {
-      console.log('Ocorreu um tipo de erro não esperado' + e)
-    }
-  }
+	if (i % 2 === 0) 
+    console.log(`${i}^2 = ${quadrado}`);
 }
-
-for (let i = 1; i <= numero; i++){
-  if(i % 2 === 0){
-    console.log(`${i}^2=${i ** 2}`)
-  } 
-}
-
-
-
-
-// ------------------------------------------------------
-// let lines = gets().split('\n');
-// var numero = parseInt(lines.shift());
-
-// if(numero > 5 && numero < 2000){
-//   for (let i = 1; i <= numero; i++){
-//     if(i % 2 === 0){
-//       let quad = i ** 2;
-//       console.log(`${i}^2=${quad.toFixed()}`);
-//     } 
-//   }
-// }

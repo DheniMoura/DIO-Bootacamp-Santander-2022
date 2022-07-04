@@ -1,5 +1,12 @@
-import { mostraCidade, mostraIdade, mostraHobby } from "./funcoes.mjs";
+const btn = document.getElementById('myBtn');
+const body = document.getElementsByTagName('body')[0];
 
-console.log(mostraIdade("Maria", 26));
-console.log(mostraCidade("Adriano", "Maringá"));
-console.log(mostraHobby("Janaína", "Acordar quatro e meia"));
+const listener = function () {
+    btn.addEventListener('click', async () => {
+        const { paintRed } = await import('./modules/metodos.mjs');
+
+        paintRed(body);
+    });
+};
+
+listener();

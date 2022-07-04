@@ -1,3 +1,3 @@
 # Módulos
 
-Atividades práticas sobre módulos em JavaScript
+Atividades práticas sobre módulos em JavaScript.

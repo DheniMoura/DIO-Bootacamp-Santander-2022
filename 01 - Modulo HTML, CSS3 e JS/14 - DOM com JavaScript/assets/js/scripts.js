@@ -1,29 +1,34 @@
 function changeMode() {
-    changeClasses();
-    changeText();
+	changeClasses();
+	changeText();
 }
 
 function changeClasses() {
-    button.classList.add.toggle('dark-mode');
-    h1.classList.add.toggle('dark-mode');
-    body.classList.add.toggle('dark-mode');
-    footer.classList.add.toggle('dark-mode');
+	button.classList.toggle(darkModeClass);
+	h1.classList.toggle(darkModeClass);
+	body.classList.toggle(darkModeClass);
+	footer.classList.toggle(darkModeClass);
 }
 
 function changeText() {
-    if (button.classList.contains('dark-mode')) {
-        button.innerHTML = "Light Mode";
-        h1.innerHTML = "Dark Mode ON";
-        return;
-    }
-    button.innerHTML = "Light Dark";
-    h1.innerHTML = "Light Mode ON";
+	const lightMode = 'Light Mode';
+	const darkMode = 'Dark Mode';
+
+	if (body.classList.contains(darkModeClass)) {
+		button.innerHTML = lightMode;
+		h1.innerHTML = darkMode + ' ON';
+		return;
+	}
+
+	button.innerHTML = darkMode;
+	h1.innerHTML = lightMode + ' ON';
 }
 
 
+const darkModeClass = 'dark-mode';
 const button = document.getElementById('mode-selector');
 const h1 = document.getElementById('page-title');
-const body = document.getElementsByName('body')[0]; //lembrar que retorna uma lista
+const body = document.getElementsByTagName('body')[0]; //lembrar que retorna uma lista
 const footer = document.getElementsByTagName('footer')[0]; //retorna uma lista
 
-button.addEventListener('click', changeMode());
+button.addEventListener('click', changeMode);

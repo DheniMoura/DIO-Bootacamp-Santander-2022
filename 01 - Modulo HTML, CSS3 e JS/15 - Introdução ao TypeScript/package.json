@@ -1,0 +1,12 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Explorando classes, tipos e interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

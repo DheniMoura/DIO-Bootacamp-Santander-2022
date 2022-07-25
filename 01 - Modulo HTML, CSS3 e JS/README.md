@@ -17,9 +17,9 @@ Módulo dedicado às tecnologias HTML5, CSS3 e JavaScript.
 |09| [Debug-error](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/09%20-%20debug-error) |
   |10| [JavaScript Assíncrono](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/10%20-%20JS%20Ass%C3%ADncrono) |
 |11| [Orientação a objetos](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/11%20-%20Orienta%C3%A7%C3%A3o%20a%20objetos) |
-|12| Está por vir! |
-|13| Está por vir! |
-|14| Está por vir! |
-|15| Está por vir! |
-|16| Está por vir! |
+|12| [Desafios iniciais em JS](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/12%20-%20Desafios%20iniciais%20JS) |
+|13| [Módulos](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/13%20-%20%20M%C3%B3dulos%20JS) |
+|14| [Manipulando DOM com JavaScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/14%20-%20DOM%20com%20JavaScript) |
+|15| [Introdução ao TypeScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/15%20-%20Introdu%C3%A7%C3%A3o%20ao%20TypeScript)|
+|16| [Introdução prática ao TypeScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/16%20-%20Introdu%C3%A7%C3%A3o%20pr%C3%A1tica%20ao%20TypeScript) |
 |17| Está por vir! |

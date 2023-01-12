@@ -22,4 +22,4 @@ Módulo dedicado às tecnologias HTML5, CSS3 e JavaScript.
 |14| [Manipulando DOM com JavaScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/14%20-%20DOM%20com%20JavaScript) |
 |15| [Introdução ao TypeScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/15%20-%20Introdu%C3%A7%C3%A3o%20ao%20TypeScript)|
 |16| [Introdução prática ao TypeScript](https://github.com/DheniMoura/DIO-Bootacamp-Santander-2022/tree/main/01%20-%20Modulo%20HTML%2C%20CSS3%20e%20JS/16%20-%20Introdu%C3%A7%C3%A3o%20pr%C3%A1tica%20ao%20TypeScript) |
-|17| Está por vir! |
+
